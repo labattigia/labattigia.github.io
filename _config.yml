@@ -1,0 +1,12 @@
+# Site settings
+title: La Battigia
+email: info@labattigiasori.it
+description: "Osteria, Ristorante, Pizzeria e Bar a Sori"
+baseurl: ""
+url: "http://labattigiasori.it"
+defaultTags: "la battigia, battigia, sori, ristorante, osteria, pizzeria"
+facebookpage: "https://www.facebook.com/LaBattigia"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
