@@ -1,22 +1,3 @@
 <header class="site-header">
 
-  <div class="wrap">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-
-      </a>
-    </nav>
-
-  </div>
-
 </header>
-
-      <div class="trigger">
-
-        {% for page in site.pages %}
-          {% if page.visible %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
-      </div>

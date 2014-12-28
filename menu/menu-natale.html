@@ -1,0 +1,24 @@
+---
+layout: menu
+title: "Menu Natale"
+permalink: Menu-Natale/
+visible: 
+---
+
+{% assign menu = site.data.menunatale %}
+
+{% for list in menu %}
+{% unless {{list[0]}} contains 'spacing' %} 
+<div class="menuParagraph">
+<h2>{{list[0]}}</h2>
+{% for item in list[1] %}
+<p>{{item}}  </p>
+{% endfor %}
+</div>
+{% else %}
+{% if {{list[0]}} contains 'break' %}
+<div class="page-break"></div> 
+{% endif %}
+<div class="pdf-spacing" style="height:{{list[1][0]}}px;"></div>
+{% endunless %}
+{% endfor %}
