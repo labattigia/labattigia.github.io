@@ -8,5 +8,6 @@ defaultTags: "la battigia, battigia, sori, ristorante, osteria, pizzeria"
 facebookpage: "https://www.facebook.com/LaBattigia"
 
 # Build settings
+exclude: [_utils]
 markdown: kramdown
 permalink: pretty
