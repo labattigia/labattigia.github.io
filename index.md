@@ -5,7 +5,7 @@ layout: default
 #La Battigia#
 
 
-Osteria, Ristorante, Pizzeria, Bar  
+Osteria, Ristorante, Pizzeria  
 {: .desc}
 
 Siamo aperti tutti i giorni per la colazione, il pranzo, gli aperitivi e la cena
